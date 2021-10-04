@@ -1,0 +1,35 @@
+* {box-sizing:border-box}
+
+.slideshow-component-container {
+
+  position: relative;
+  margin: auto;
+
+}
+
+.slide-image{
+
+	max-height:500px;
+    width:100%;
+        }
+
+.slidebox {
+    display: none;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .5}
+  to {opacity: 2}
+}
+
+@keyframes fade {
+  from {opacity: .5}
+  to {opacity: 2}
+}
